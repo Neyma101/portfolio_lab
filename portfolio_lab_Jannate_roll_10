@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannte Neyma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #eae0e0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info, .expertise, .experience, .education, .personal-info, .references {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .expertise ul, .experience ul, .education p, .personal-info p, .references p {
+            margin: 5px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #fce2e7;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 4px solid #007BFF;
+        }
+        .section-title {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .project-link a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .project-link a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            position: relative;
+        }
+        .contact-info img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: auto;
+           
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 3px;
+            text-align: left;
+        }
+
+        caption {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-info">
+            <h1 style="color: blue;">Jannte Neyma</h1>
+            <p>Permanent Address: Village: Charshi Kholifa Para,<br> P.O: Kamalkhan Hat, Up: Jamalpur,<br> District: Jamalpur</p>
+            <p>NID: 4205000351</p>
+            <img src="C:\Users\MD KAZEM ALI\OneDrive\Desktop\Jannate\jannate.png" alt="Photo">
+        </div>
+        
+        <div class="education">
+            <h2 class="section-title">Academic Qualification</h2>
+            <table>
+                
+                <tr>
+                    <th>Degree/Certificate Name</th>
+                    <th>Result</th>
+                    <th>Institute Name</th>
+                    <th>Start Year</th>
+                    <th>End Year</th>
+                </tr>
+                <tr>
+                    <td>Secondary School Certificate</td>
+                    <td>5.00 (5)</td>
+                    <td>Rohima Kazem Uddin Girls High School</td>
+                    <td>2010</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Diploma in Computer</td>
+                    <td>3.02 (4)</td>
+                    <td>Dhaka Polytechnic Institute</td>
+                    <td>2015</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>BSC in CSE</td>
+                    <td>-</td>
+                    <td>Dhaka International University</td>
+                    <td>2021</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="personal-info">
+            <h2 class="section-title">Personal Information</h2>
+            <table>
+                <tr>
+                    <th style="width: 48%;">Name</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">Jannte Neyma</td>
+                </tr>
+                <tr>
+                    <th style="width: 48%;">Father’s Name</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">Md Abdul Mutaleb</td>
+                </tr>
+                <tr>
+                    <th style="width: 48%;">Mother’s Name</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">Nurun Nahar</td>
+                </tr>
+                <tr>
+                    <th style="width: 48%;">Birth Date</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">01-07-1998</td>
+                </tr>
+                <tr>
+                    <th style="width: 48%;">Nationality</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">Bangladeshi (By Birth)</td>
+                </tr>
+                <tr>
+                    <th style="width: 48%;">Religion</th>
+                    <th style="width: 5%;">:</th>
+                    <td style="width: 50%;">Islam</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
